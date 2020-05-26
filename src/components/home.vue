@@ -1,3 +1,5 @@
+
+
 <template>
 <html lang="en">
     <head>
@@ -15,41 +17,31 @@
           <a style="font-family: serif;" id="general-email" href="mailto:info@tgif.net">info@tgif.net</a> 
         </div>
       
+<div>
+  <b-navbar type="dark" variant="dark">
+    <b-navbar-nav>
+      <b-nav-item>Home</b-nav-item>
 
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(165, 91, 42)">
-        <div style="font-family: serif;" class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Congress 113</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <ul >
-                  <li><a class="dropdown-item" href="senate-data.html">Senate</a></li>
-                  <li><a class="dropdown-item" href="house-data.html">House</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Attendance</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <ul >
-                  <li><a class="dropdown-item" href="senate_attendance.html">Senate</a></li>
-                  <li><a class="dropdown-item" href="house_attendance.html">House</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Party Loyalty</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <ul >
-                  <li><a class="dropdown-item" href="senate_party-loyalty.html">Senate</a></li>
-                  <li><a class="dropdown-item" href="house_party-loyalty.html">House</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>     
+      <!-- Navbar dropdowns -->
+      <b-nav-item-dropdown text="Congress 113" right>
+        <b-dropdown-item><router-link to="/senateData">Senate</router-link></b-dropdown-item>
+        <b-dropdown-item >House</b-dropdown-item>
+      </b-nav-item-dropdown>
+
+      <b-nav-item-dropdown text="Attendance" right>
+        <b-dropdown-item >Senate</b-dropdown-item>
+        <b-dropdown-item>House</b-dropdown-item>
+      </b-nav-item-dropdown>
+
+      <b-nav-item-dropdown text="Party Loyalty" right>
+        <b-dropdown-item>Senate</b-dropdown-item>
+        <b-dropdown-item>House</b-dropdown-item>
+      </b-nav-item-dropdown>
+    </b-navbar-nav>
+  </b-navbar>
+</div>
+
+      
     </div>
       
         <!--Table container-->
@@ -101,8 +93,8 @@
 
 
 <script>
-            
-  
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
