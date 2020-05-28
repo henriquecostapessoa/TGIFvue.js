@@ -24,17 +24,17 @@
       <!-- Navbar dropdowns -->
       <b-nav-item-dropdown text="Congress 113" right>
         <b-dropdown-item><router-link to="/SenateData">Senate</router-link></b-dropdown-item>
-        <b-dropdown-item >House</b-dropdown-item>
+        <b-dropdown-item ><router-link to="/HouseData">House</router-link></b-dropdown-item>
       </b-nav-item-dropdown>
 
       <b-nav-item-dropdown text="Attendance" right>
-        <b-dropdown-item >Senate</b-dropdown-item>
-        <b-dropdown-item>House</b-dropdown-item>
+        <b-dropdown-item ><router-link to="/SenateAttendance">Senate</router-link></b-dropdown-item>
+        <b-dropdown-item><router-link to="/HouseAttendance">House</router-link></b-dropdown-item>
       </b-nav-item-dropdown>
 
       <b-nav-item-dropdown text="Party Loyalty" right>
-        <b-dropdown-item>Senate</b-dropdown-item>
-        <b-dropdown-item>House</b-dropdown-item>
+        <b-dropdown-item><router-link to="/SenateLoyalty">Senate</router-link></b-dropdown-item>
+        <b-dropdown-item><router-link to="/HouseLoyalty">House</router-link></b-dropdown-item>
       </b-nav-item-dropdown>
     </b-navbar-nav>
   </b-navbar>
@@ -42,9 +42,14 @@
 </div>
 
 
+
 <div>
 <router-view />
 </div>
+
+<footer class="footer">
+        <p>&copy; 2020  | All Rights Reserved</p>
+      </footer>
 
  </body>
 </html>
@@ -58,4 +63,57 @@
 
 <style>
 
+.navbar.navbar-dark.bg-dark{
+    background-color: rgb(165, 91, 42)!important;
+ }
+
+.beforenavbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+}
+
+.text {
+    color: rgb(165, 91, 42);
+    font-family: serif;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(165, 91, 42);
+    color: white;
+    font-family: serif;
+    border-radius: 8px;
+    padding-top: 15px;
+}
+
+.dropdown-menu,
+.dropdown-menu ul {
+  list-style-type:none;
+}
+
+table {
+    text-align: center;
+}
+
+.margin {
+    margin-top: 150px;
+}
+
+.mt-150 {
+    margin-top: 175px !important;
+  }
+
+hr {
+    border-width: 3px;
+}
 </style>
