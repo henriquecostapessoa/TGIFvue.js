@@ -19,22 +19,22 @@
 <div>
   <b-navbar type="dark" variant="dark">
     <b-navbar-nav>
-      <b-nav-item><router-link to="/">Home</router-link></b-nav-item>
+      <b-nav-item><router-link class="link" to="/">Home</router-link></b-nav-item>
 
       <!-- Navbar dropdowns -->
       <b-nav-item-dropdown text="Congress 113" right>
-        <b-dropdown-item><router-link to="/SenateData">Senate</router-link></b-dropdown-item>
-        <b-dropdown-item ><router-link to="/HouseData">House</router-link></b-dropdown-item>
+        <b-dropdown-item><router-link class="link" to="/SenateData">Senate</router-link></b-dropdown-item>
+        <b-dropdown-item ><router-link class="link" to="/HouseData">House</router-link></b-dropdown-item>
       </b-nav-item-dropdown>
 
       <b-nav-item-dropdown text="Attendance" right>
-        <b-dropdown-item ><router-link to="/SenateAttendance">Senate</router-link></b-dropdown-item>
-        <b-dropdown-item><router-link to="/HouseAttendance">House</router-link></b-dropdown-item>
+        <b-dropdown-item ><router-link class="link" to="/SenateAttendance">Senate</router-link></b-dropdown-item>
+        <b-dropdown-item><router-link class="link" to="/HouseAttendance">House</router-link></b-dropdown-item>
       </b-nav-item-dropdown>
 
       <b-nav-item-dropdown text="Party Loyalty" right>
-        <b-dropdown-item><router-link to="/SenateLoyalty">Senate</router-link></b-dropdown-item>
-        <b-dropdown-item><router-link to="/HouseLoyalty">House</router-link></b-dropdown-item>
+        <b-dropdown-item><router-link class="link" to="/SenateLoyalty">Senate</router-link></b-dropdown-item>
+        <b-dropdown-item><router-link class="link" to="/HouseLoyalty">House</router-link></b-dropdown-item>
       </b-nav-item-dropdown>
     </b-navbar-nav>
   </b-navbar>
@@ -62,6 +62,10 @@
 </script>
 
 <style>
+
+.link{
+  color: black
+}
 
 .navbar.navbar-dark.bg-dark{
     background-color: rgb(165, 91, 42)!important;
