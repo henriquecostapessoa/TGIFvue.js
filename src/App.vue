@@ -58,7 +58,6 @@
 <script>
 
 
-
 </script>
 
 <style>
@@ -69,6 +68,12 @@
 
 .navbar.navbar-dark.bg-dark{
     background-color: rgb(165, 91, 42)!important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 80%;
+    
  }
 
 .beforenavbar {
