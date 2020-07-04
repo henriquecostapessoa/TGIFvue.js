@@ -7,7 +7,7 @@
     
     </head>
     
-    <body class="w-100 p-3">
+    <body>
       
       <div class="fixed-top">
                 
@@ -72,12 +72,9 @@
  }
 
 .beforenavbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     background-color: white;
+    display: flex;
+    justify-content: space-around;
     padding: 15px;
 }
 
@@ -119,5 +116,11 @@ table {
 
 hr {
     border-width: 3px;
+}
+
+.img3{
+  width: 90%;
+  height: auto;
+  margin-left: 20px;
 }
 </style>

@@ -15,18 +15,18 @@
         <div class="mt-150"></div>
         <div class="container--">
           <div class="row">
-            <div class="col-8">
+          
               <div class="text">
                 <h2>About Us</h2>
                   <p>Openness, accountability, and honesty define government transparency. In a free society, transparency is government's obligation to share information with citizens. It is at the heart of how citizens hold their public officials accountable. Here at TGIF we believe that government should be transparent.</p>  
                   <p>Governments exist to serve the people. Information on how officials conduct the public business and spend taxpayer money must be readily available and easily understood. This transparency allows good and just governance.  Transparency promotes accountability and provides information for citizens about what their Government is doing.</p>  
                   <p>We also believe that government should be participatory. Public engagement enhances the Government's effectiveness and improves the quality of its decisions. Knowledge is widely dispersed in society, and public officials benefit from having access to that dispersed knowledge. We invite you to use our site to become actively engaged in American government.</p>
                   <p>TGIF works to disclose information in forms that the public can readily find and use. We solicit public feedback to identify information of greatest use to the public.</p> 
-                </div>
+                
               </div>
-            <div class="col-4">
-                <img src="https://thenewturkey.org/images/news/2019/06/11/us-congress.jpg" alt="Trulli" width="476" height="326">
-            </div>          
+           
+                <img class="img3" src="https://www.house.gov/sites/default/files/styles/large/public/uploads/images-slide/HouseLive_1.jpg?itok=8xPqtNyW" alt="Trulli" width="476" height="326">
+                     
           </div>
         </div>
       
@@ -65,53 +65,5 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 
-.beforenavbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 15px;
-}
 
-.text {
-    color: rgb(165, 91, 42);
-    font-family: serif;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(165, 91, 42);
-    color: white;
-    font-family: serif;
-    border-radius: 8px;
-    padding-top: 15px;
-}
-
-.dropdown-menu,
-.dropdown-menu ul {
-  list-style-type:none;
-}
-
-table {
-    text-align: center;
-}
-
-.margin {
-    margin-top: 150px;
-}
-
-.mt-150 {
-    margin-top: 175px !important;
-  }
-
-hr {
-    border-width: 3px;
-}
 </style>

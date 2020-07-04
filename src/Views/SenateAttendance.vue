@@ -12,15 +12,15 @@
         <div class="mt-150"></div>
         <div class="container--">
           <div class="row">
-            <div class="col">
+            
               <div class="text">
               <h2>Attendance</h2>
               <p>The Constitution specifies that a majority of members constitutes a quorum to do business in each house. Representatives and senators rarely force the presence of a quorum by demanding quorum calls; thus, in most cases, debates continue even if a majority is not present.</p>
 
               <p>The Senate uses roll-call votes; a clerk calls out the names of all the senators, each senator stating "aye" or "no" when his or her name is announced. The House reserves roll-call votes for the most formal matters, as a roll-call of all 435 representatives takes quite some time; normally, members vote by electronic device. In the case of a tie, the motion in question fails. In the Senate, the Vice President may (if present) cast the tiebreaking vote.</p>
-            </div>
+        
           </div>
-          <div class="col">
+          
               <h2 style="font-family: serif;">Senate at a glance</h2>
               <table class="table table-striped">
                 <thead>
@@ -45,13 +45,13 @@
                     </tr>
                 </tbody>
             </table>
-          </div>    
+         
         </div>
       </div>
       <hr>
       <div class="container--">
         <div class="row">
-          <div class="col">
+        
             <h2 style="font-family: serif;">Least Engaged (Bottom 10% Attendance)</h2>
             <table class="table table-striped">
                 <thead>
@@ -64,8 +64,8 @@
                 <tbody style="font-family: serif;" id="table-body-leastEngaged">
                 </tbody>
             </table>
-          </div>
-          <div class="col">
+          
+          
             <h2 style="font-family: serif;">Most Engaged (Top 10% Attendance)</h2>
             <table class="table table-striped">
                 <thead>
@@ -78,7 +78,7 @@
                 <tbody style="font-family: serif;" id="table-body-mostEngaged">
                 </tbody>
             </table>
-          </div>
+        
         </div>
       </div>
 

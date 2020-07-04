@@ -14,13 +14,13 @@
         <div class="mt-150"></div>
         <div class="container--">
           <div class="row">
-            <div class="col">
+        
               <div class="text">
               <h2>Party Loyalty</h2>
               <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda. </p>
             </div>
-          </div>
-          <div class="col">
+        
+          
               <h2 style="font-family: serif;">House at a glance</h2>
               <table class="table table-striped">
                 <thead>
@@ -45,13 +45,13 @@
                     </tr>
                 </tbody>
             </table>
-          </div>       
+              
         </div>
       </div>
       <hr>
       <div class="container--">
         <div class="row">
-          <div class="col">
+          
             <h2 style="font-family: serif;">Least Loyal (Bottom 10% of Party)</h2>
             <table class="table table-striped">
                 <thead>
@@ -64,8 +64,8 @@
                 <tbody style="font-family: serif;" id="table-body-leastloyal">    
                 </tbody>
             </table>
-          </div>
-          <div class="col">
+          
+          
             <h2 style="font-family: serif;">Most Loyal (Top 10% of Party)</h2>
             <table class="table table-striped">
                 <thead>
@@ -78,7 +78,7 @@
                 <tbody style="font-family: serif;" id="table-body-mostloyal">
                 </tbody>
             </table>
-          </div>
+
         </div>
       </div>
 
